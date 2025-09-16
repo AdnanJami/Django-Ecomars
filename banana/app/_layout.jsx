@@ -5,7 +5,7 @@ const RootLayout = ()=> {
     <Stack.Screen  
   name="index" options={{ title: 'yoyo' }}/>
   <Stack.Screen name="modddal" options={{ title: 'niga',headerStyle:{backgroundColor:'#6366f1'},headerTitleAlign:"center", }}/>
-  <Stack.Screen name="otherss/bana" options={{ title: 'calculator' }}/>
+  <Stack.Screen name="otherss/bana" options={{ title: 'calculator', headerShown:false }}/>
     </Stack>
     
 
